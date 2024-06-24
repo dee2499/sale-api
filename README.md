@@ -43,8 +43,23 @@ This endpoint applies one of three rules (1, 2, or 3) to a list of items and ret
 
 #### Request
 
-Send a POST request to `http://127.0.0.1:8000/api/apply-rule` with the following JSON payload:
+Send a POST request to `http://127.0.0.1:8000/api/apply-rule` with the following JSON payload in Postman:
 
+Rule 1 
+```json
+{
+    "items": [10, 20, 30, 40, 50, 60],
+    "rule": 1
+}
+
+Rule 2 
+```json
+{
+    "items": [10, 20, 30, 40, 40, 50, 60, 60],
+    "rule": 2
+}
+
+Rule 3 
 ```json
 {
     "items": [5, 5, 10, 20, 30, 40, 50, 50, 50, 60],
