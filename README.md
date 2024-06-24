@@ -1,5 +1,5 @@
 
-Diwali Sale Campaign API
+Diwali Sale API
 ========================
 
 This project implements a Laravel API for handling a Diwali sale campaign with various discount rules.
