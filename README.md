@@ -30,7 +30,7 @@ Getting Started
 Running the Application
 ------------------------------------------------------------
 
-Start the Laravel development server:
+Start the Laravel development server by ```php artisan serve```
 The application will be served at `http://127.0.0.1:8000`.
 
 ------------------------------------------------------------
